@@ -14,10 +14,13 @@
       <div class="box">
         <h2>Choose Grid Size</h2>
         <form id="sizePicker">
+          <hr>
             Grid Height:
             <input type="number" id="inputHeight" name="height" min="1" value="1">
+          <br>
             Grid Width:
             <input type="number" id="inputWidth" name="width" min="1" value="1">
+          <hr>
             <input type="submit">
         </form>
         <hr>
@@ -26,6 +29,11 @@
       </div>
     </div> 
     <h2 id="idDesignCanvas">Design Canvas</h2>
+    <div class="container">
+      <button id="idResetButton" class="box">
+        Reset
+      </button>
+    </div>
     <hr>  
     <table id="pixelCanvas"></table>
     <script src="designs.js"></script>

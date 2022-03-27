@@ -1,5 +1,7 @@
 /* ID Selectors */
-
+#idResetButton {
+  
+}
 /* Class Selectors */
 .container {
   display: flex;
