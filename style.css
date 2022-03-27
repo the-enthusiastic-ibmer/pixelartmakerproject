@@ -1,6 +1,6 @@
 /* ID Selectors */
 #idResetButton {
-  
+  font-size: 1.5em;
 }
 /* Class Selectors */
 .container {
@@ -15,10 +15,7 @@
   border-radius: 2%;
   padding: 1%;
 }
-/* Element Selectors */
-/*body {
-  text-align: center;
-}*/
+
 
 h1 {
   text-align: center;
