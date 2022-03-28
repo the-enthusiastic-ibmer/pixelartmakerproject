@@ -38,7 +38,7 @@ function makeGrid(formHeightVal,formWidthVal){
 function colorClick(canvasColor){
   tableElements.addEventListener("click", (evt)=>{
   evt.target.style.backgroundColor = canvasColor;
-  console.log(evt.target,canvasColor); //Uncomment to check the code;
+  //console.log(evt.target,canvasColor); Uncomment to check the code;
   });
 }
 /* Delete the table */
